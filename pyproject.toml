@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "bugster"
+version = "0.1.0"
+description = ""
+authors = ["Egor Kolundin <ekolundin@marfa-tech.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+sqlalchemy = "2.0.21"
+pytest = "7.4.2"
+pytest_image_diff = "0.0.11"
+selenium = "4.12.0"
+ruff = "0.0.291"
+requests = "2.31.0"
+Faker = "19.6.1"
+pip = "23.2.1"
+curlify = "2.2.1"
+deepdiff = "6.5.0"
+loguru = "0.7.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 150
